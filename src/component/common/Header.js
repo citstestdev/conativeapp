@@ -10,7 +10,7 @@ function Header()
               <div class="header-area clearfix">
                 <div class="logo-block left">
                   <a href="index.html">
-                    <img src="./assets/images/conative-logo.svg" alt="Conative It Solutions Logo"/>
+                    <img src="http://localhost:3000/conativeapp/assets/images/conative-logo.svg" alt="Conative It Solutions Logo"/>
                   </a>
                 </div>
                 <div class="header-contact-content right">

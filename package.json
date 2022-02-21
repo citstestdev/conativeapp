@@ -1,5 +1,6 @@
 {
   "name": "conative",
+  "homepage": "https://citstestdev.github.io/conativeapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
+    "gh-pages": "^3.2.3",
     "http-errors": "^2.0.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
@@ -20,6 +22,8 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
